@@ -10,7 +10,7 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
 <table>
   <tbody>
     <tr>
-      <td bgcolor='#90EE90'>0</td>
+      <td>0</td>
       <td>5</td>
       <td>0</td>
       <td>8</td>
@@ -18,7 +18,7 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
       <td>8</td>
     </tr>
     <tr>
-      <td bgcolor='#90EE90'>3</td>
+      <td>3</td>
       <td>6</td>
       <td>1</td>
       <td>3</td>
@@ -26,7 +26,7 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
       <td>3</td>
     </tr>
     <tr>
-      <td bgcolor='#90EE90'>9</td>
+      <td>9</td>
       <td>5</td>
       <td>7</td>
       <td>9</td>
@@ -34,9 +34,9 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
       <td>1</td>
     </tr>
     <tr>
-      <td bgcolor='#90EE90'>8</td>
-      <td bgcolor='#90EE90'>7</td>
-      <td bgcolor='#90EE90'>9</td>
+      <td>8</td>
+      <td>7</td>
+      <td>9</td>
       <td>4</td>
       <td>8</td>
       <td>3</td>
@@ -44,10 +44,10 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
     <tr>
       <td>7</td>
       <td>8</td>
-      <td bgcolor='#90EE90'>7</td>
-      <td bgcolor='#90EE90'>6</td>
-      <td bgcolor='#90EE90'>2</td>
-      <td bgcolor='#90EE90'>5</td>
+      <td>7</td>
+      <td>6</td>
+      <td>2</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>3</td>
@@ -55,7 +55,7 @@ You are given a 2-dimensional grid of integers, like the example below. Consider
       <td>0</td>
       <td>5</td>
       <td>0</td>
-      <td bgcolor='#90EE90'>4</td>
+      <td>4</td>
     </tr>
   </tbody>
 </table>
