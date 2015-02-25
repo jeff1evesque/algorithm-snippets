@@ -10,15 +10,12 @@ if __name__ == "__main__":
   fp.close()
 
   # local variables
-  row_length = len(data)
-  col_length = len(data[0])
-  row_range  = range(row_length)
-  col_range  = range(col_length)
+  row_length = len(data) - 1
+  col_length = len(data[0]) - 1
+  row_range  = range(row_length + 1)
+  col_range  = range(col_length + 1)
   list_max   = [[-1 for y in row_range] for x in col_range]
-
   list_path = []
-  row_decrementer = row_length - 1
-  col_decrementer = col_length - 1
 
   # create summed matrix
   for i in row_range:
@@ -37,18 +34,18 @@ if __name__ == "__main__":
         list_max[i][j] = max( list_max[i][j-1], list_max[i-1][j]) + data[i][j]
 
   # determine traveled path
-  while row_decrementer > 0 or col_decrementer > 0:
-    if row_decrementer == 0:
-      col_decrementer -= 1
+  while row_length > 0 or col_length > 0:
+    if row_length == 0:
+      col_length -= 1
       list_path.append( 'R' )
-    elif col_decrementer == 0:
-      row_decrementer -= 1
+    elif col_length == 0:
+      row_length -= 1
       list_path.append( 'D' )
-    elif list_max[row_decrementer - 1][col_decrementer] > list_max[row_decrementer][col_decrementer - 1]:
-      row_decrementer -= 1
+    elif list_max[row_length - 1][col_length] > list_max[row_length][col_length - 1]:
+      row_length -= 1
       list_path.append( 'D' )
-    elif list_max[row_decrementer - 1][col_decrementer] <= list_max[row_decrementer][col_decrementer - 1]:
-      col_decrementer -= 1
+    elif list_max[row_length - 1][col_length] <= list_max[row_length][col_length - 1]:
+      col_length -= 1
       list_path.append( 'R' )
 
   # return results
