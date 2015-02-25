@@ -65,3 +65,16 @@ The specific grid for you to solve is given as a rectangular array of arrays in 
 For example, the sample above is available as [JSON here](https://github.com/jeff1evesque/algorithm-snippets/blob/master/greatest_path_sum/data/sample.json), and a correct solution to it is the highlighted path `DDDRRDRRRD`, with the value of `60`.
 
 Here is the specific [challenge to solve](https://github.com/jeff1evesque/algorithm-snippets/blob/master/greatest_path_sum/data/sample2.json).
+
+##Execution
+
+To execute this exercise, run the following script in a terminal console:
+
+```
+$ cd /var/www/html/algorithm-snippets/greatest_path_sum/
+$ python logic.py data/sample.json
+['D', 'D', 'D', 'R', 'R', 'D', 'R', 'R', 'R', 'D']
+60
+```
+
+**Note** the above execution implements the supplied input file from the [`data/`](https://github.com/jeff1evesque/algorithm-snippets/tree/master/greatest_path_sum/data) subdirectory.
