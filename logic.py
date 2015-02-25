@@ -1,5 +1,14 @@
 #!/usr/bin/python
 
+## @logic.py
+#  This file requires an input file, containing a 2-dimensional array (matrix)
+#      of integers. Using the supplied matrix, this file determines the largest
+#      possible sum of integers, from the upper-left to the lower-right corner,
+#      with the restriction of only moving down, or to the right.
+#
+#  Note: sample input file(s) can be found in the 'data/' subdirectory
+#
+#  Note: this file returns both the path taken, and sum of each element traversed.
 import sys, json
 
 if __name__ == "__main__":
