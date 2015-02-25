@@ -3,9 +3,9 @@ Algorithm Snippets
 
 This repository contains various algorithm exercises, some were asked during my interviews:
 
-- Google
-- Grist Labs
-- The New York Times
+- [Google](http://www.google.com/about/datacenters/)
+- [Grist Labs](http://www.getgrist.com/)
+- [The New York Times](http://www.nytimes.com/)
 
 ##Configuration
 
