@@ -4,7 +4,7 @@ Algorithm Snippets
 This repository contains various algorithm exercises, some were asked during my interviews:
 
 - Google
-- Grist
+- Grist Labs
 - The New York Times
 
 ##Configuration
