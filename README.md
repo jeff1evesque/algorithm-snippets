@@ -3,7 +3,7 @@ Algorithm Snippets
 
 This repository contains various algorithm exercises, some were asked during my interviews:
 
-- [Google, datacenter](http://www.google.com/about/datacenters/)
+- [Google](http://www.google.com/about/datacenters/) (Data Center)
 - [Grist Labs](http://www.getgrist.com/)
 - [The New York Times](http://www.nytimes.com/)
 
