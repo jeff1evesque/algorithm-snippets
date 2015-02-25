@@ -5,7 +5,7 @@ import sys, json
 if __name__ == "__main__":
 
   # open, store data, close connection
-  fp = open(sys.argv[1])
+  fp   = open(sys.argv[1])
   data = json.load( fp )
   fp.close()
 
@@ -15,7 +15,7 @@ if __name__ == "__main__":
   row_range  = range(row_length + 1)
   col_range  = range(col_length + 1)
   list_max   = [[-1 for y in row_range] for x in col_range]
-  list_path = []
+  list_path  = []
 
   # create summed matrix
   for i in row_range:
